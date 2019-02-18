@@ -2,6 +2,9 @@ import numpy as np
 
 from maxima import find_maxima
 
+def test_failing():
+    assert False
+
 def test_simple_sequence_two_maxima():
     inp = [0, 1, 2, 1, 2, 1, 0]
     out = find_maxima(inp)
